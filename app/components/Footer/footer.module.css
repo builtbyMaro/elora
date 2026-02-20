@@ -1,0 +1,89 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 60px;
+  background: #1a6b3ff2;
+}
+
+.footerLogo {
+  font-size: 2em;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #d4a737;
+}
+
+.footerCopyright {
+  font-size: 0.9em;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  color: #e0e0e0;
+}
+
+.footerLinks {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.navLinks,
+.serviceLinks,
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.serviceLinks h4,
+.contactLinks h4 {
+  font-size: 1em;
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.navLinks a,
+.serviceLinks a,
+.contactLinks a {
+  font-size: 0.9em;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  color: #e0e0e0;
+  text-decoration: none;
+}
+.navLinks a:hover,
+.serviceLinks a:hover,
+.contactLinks a:hover {
+  color: #d4a737;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footerContainer {
+    padding: 24px;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .navLinks,
+  .serviceLinks,
+  .contactLinks {
+    flex-direction: row;
+    gap: 34px;
+    text-align: center;
+  }
+
+  .serviceLinks h4,
+  .contactLinks h4 {
+    display: none;
+  }
+
+  .navLinks a,
+  .contactLinks a {
+    text-align: center;
+  }
+}

@@ -1,0 +1,88 @@
+.heroContainer {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding: 0px 60px;
+  background: linear-gradient(155deg, #1a6b3f 0%, #43a047 55%, #000000 100%);
+  overflow: hidden;
+}
+
+.darkOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 60%;
+  position: relative;
+  z-index: 3;
+}
+
+.textContainer h1 {
+  font-size: 6em;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #d4a737;
+}
+
+.textContainer p {
+  font-size: 1.2em;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  color: #e0e0e0;
+  max-width: 70%;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 40%;
+  z-index: 1;
+}
+
+.heroImg {
+  width: 500px;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .heroContainer {
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 70%;
+  }
+
+  .imageContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .heroImg {
+    width: 100%;
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .textContainer p {
+    margin-top: 34px;
+    max-width: 100%;
+  }
+}

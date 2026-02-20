@@ -1,0 +1,181 @@
+.productsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.productCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  height: 500px;
+  background: linear-gradient(155deg, #1a6b3f 0%, #43a047 55%, #000000 100%);
+  padding: 48px 24px;
+  gap: 48px;
+  border-radius: 8px;
+}
+
+.productImage {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background: url("/Images/aurea.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -100px;
+  border-radius: 8px;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+  padding: 36px;
+}
+
+.productDetails h3 {
+  font-size: 1em;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  color: #e0e0e0;
+}
+
+.productDetails h2 {
+  font-size: 4em;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #d4a737;
+  margin-bottom: 24px;
+}
+
+.productDetails p {
+  font-size: 1.2em;
+  font-family: inter, sans-serif;
+  font-weight: 500;
+  color: #e0e0e0;
+  max-width: 80%;
+  margin-bottom: 24px;
+}
+
+.viewBtn {
+  font-family: inter;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.viewBtn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.productList {
+  display: flex;
+  gap: 40px;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background: url("/Images/verdan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  gap: 16px;
+}
+
+.detail h3 {
+  font-size: 1em;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.detail h4 {
+  font-size: 1em;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  max-width: 80%;
+}
+
+.view,
+.seeOther {
+  font-family: inter;
+  background: transparent;
+  border: 2px solid #000;
+  color: #000;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.view:hover,
+.seeOther:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .productsContainer {
+    padding: 46px 0;
+    font-size: 90%;
+    gap: 34px;
+  }
+  .productCard {
+    flex-direction: column;
+    height: auto;
+    padding: 24px;
+    border-radius: 0px;
+    gap: 24px;
+  }
+
+  .productImage {
+    width: 100%;
+    height: 300px;
+    background-position-y: -50px;
+  }
+
+  .productDetails {
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+  }
+
+  .productDetails p {
+    max-width: none;
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 34px;
+  }
+
+  .productList {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .seeOther {
+    margin-top: -34px;
+  }
+}

@@ -1,8 +1,16 @@
+import HeroSection from "./components/Hero Section/Hero";
+import AboutSection from "./components/About Section/About";
+import Products from "./components/Products Section/products";
+import CTA from "./components/CTA section/cta";
+
 const Homepage = () => {
   return (
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-playfair text-green-700">Elora</h1>
-    </div>
+    <>
+      <HeroSection />
+      <AboutSection />
+      <Products />
+      <CTA />
+    </>
   );
 };
 

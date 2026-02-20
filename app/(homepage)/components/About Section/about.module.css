@@ -1,0 +1,76 @@
+.aboutContainer {
+  display: flex;
+  padding: 120px 60px 60px 60px;
+  gap: 60px;
+  background: linear-gradient(10deg, #fff 80%, #011f0e 105%);
+  align-items: center;
+  justify-items: center;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+  gap: 20px;
+}
+
+.aboutText p {
+  font-size: 1em;
+  font-family: inter;
+  line-height: 1.6;
+}
+
+.aboutText a {
+  font-family: inter;
+  font-weight: 400;
+  text-decoration: none;
+  align-self: end;
+}
+
+.aboutImgContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+}
+
+.aboutImg {
+  display: flex;
+  width: 450px;
+  height: 400px;
+  background: url("/Images/about-hero.jpg");
+  background-position-y: -180px;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .aboutContainer {
+    flex-direction: column;
+    padding: 48px 24px 24px 24px;
+    gap: 24px;
+  }
+
+  .aboutText {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .aboutText a {
+    align-self: center;
+  }
+
+  .aboutImgContainer {
+    width: 100%;
+    height: 300px;
+  }
+
+  .aboutImg {
+    width: 100%;
+    height: 100%;
+    background-position-y: -150px;
+  }
+}
