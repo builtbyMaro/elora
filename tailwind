@@ -1,0 +1,152 @@
+========================
+TAILWIND CSS CHEAT SHEET
+========================
+
+--------------------------------
+1. LAYOUT & DISPLAY
+--------------------------------
+block            -> display: block
+inline-block     -> display: inline-block
+inline           -> display: inline
+flex             -> display: flex
+inline-flex      -> display: inline-flex
+grid             -> display: grid
+hidden           -> display: none
+
+--------------------------------
+2. FLEXBOX
+--------------------------------
+flex-row         -> flex-direction: row
+flex-col         -> flex-direction: column
+flex-row-reverse -> row-reverse
+flex-col-reverse -> column-reverse
+
+items-start      -> align-items: flex-start
+items-center     -> align-items: center
+items-end        -> align-items: flex-end
+items-stretch    -> align-items: stretch
+
+justify-start    -> justify-content: flex-start
+justify-center   -> justify-content: center
+justify-end      -> justify-content: flex-end
+justify-between  -> space-between
+justify-around   -> space-around
+justify-evenly   -> space-evenly
+
+gap-1..gap-96    -> gap between flex/grid items
+
+flex-1           -> flex: 1
+flex-none        -> flex: none
+flex-wrap        -> flex-wrap
+flex-nowrap      -> no wrap
+
+--------------------------------
+3. GRID
+--------------------------------
+grid-cols-1..12  -> number of columns
+grid-rows-1..6   -> number of rows
+
+col-span-1..12   -> span columns
+row-span-1..6    -> span rows
+
+place-items-center -> align + justify items center
+place-content-center
+
+--------------------------------
+4. SPACING (PADDING & MARGIN)
+--------------------------------
+p-0..p-96        -> padding all sides
+px-              -> padding left/right
+py-              -> padding top/bottom
+pt- pr- pb- pl-  -> padding specific side
+
+m-0..m-96        -> margin all sides
+mx-              -> margin left/right
+my-              -> margin top/bottom
+mt- mr- mb- ml-  -> margin specific side
+
+-auto            -> auto margin (e.g mx-auto)
+
+--------------------------------
+5. WIDTH & HEIGHT
+--------------------------------
+w-0..w-96        -> fixed width
+h-0..h-96        -> fixed height
+
+w-full           -> 100%
+h-full           -> 100%
+w-screen         -> 100vw
+h-screen         -> 100vh
+
+min-w-0          -> min-width
+min-h-0
+max-w-sm/md/lg/xl/2xl/7xl
+max-h-screen
+
+--------------------------------
+6. POSITIONING
+--------------------------------
+relative
+absolute
+fixed
+sticky
+
+top-0 right-0 bottom-0 left-0
+inset-0          -> top/right/bottom/left 0
+
+z-0 z-10 z-20 z-30 z-40 z-50
+
+--------------------------------
+7. TYPOGRAPHY
+--------------------------------
+text-xs sm base lg xl 2xl 3xl 4xl 5xl 6xl
+font-thin light normal medium semibold bold extrabold
+
+tracking-tight normal wide wider widest
+leading-none tight normal relaxed loose
+
+text-left center right justify
+uppercase lowercase capitalize normal-case
+
+--------------------------------
+8. COLORS
+--------------------------------
+text-black white gray-100..900
+bg-black white gray-100..900
+border-black gray-200 etc
+
+text-red blue green yellow purple pink
+bg-red-500
+border-blue-600
+
+--------------------------------
+9. BORDERS & RADIUS
+--------------------------------
+border           -> border 1px
+border-0..4
+border-t r b l
+
+rounded-none sm md lg xl 2xl full
+
+--------------------------------
+10. BACKGROUNDS
+--------------------------------
+bg-cover
+bg-contain
+bg-center
+bg-top bg-bottom
+bg-no-repeat
+bg-repeat
+
+--------------------------------
+11. EFFECTS
+--------------------------------
+shadow-sm md lg xl 2xl
+shadow-none
+
+opacity-0..100
+blur-sm md lg xl
+brightness-50..200
+
+--------------------------------
+12. TRANSFOR
