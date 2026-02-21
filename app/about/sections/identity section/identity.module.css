@@ -1,0 +1,40 @@
+.identityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("/Images/identity-section-bg.png");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -700px;
+  gap: 36px;
+  height: 80vh;
+  padding: 60px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.identityText {
+  font-size: 1.2em;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .identityContainer {
+    padding: 24px;
+    background-position: center;
+  }
+}

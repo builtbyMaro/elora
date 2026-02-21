@@ -1,0 +1,50 @@
+.craftContainer {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.craftText {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  width: 50%;
+}
+
+.craftText h3 {
+  font-size: 1.2em;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.craftImgContainer {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+
+.craftImg {
+  width: auto;
+  height: 500px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .craftContainer {
+    flex-direction: column-reverse;
+    padding: 60px 24px;
+    gap: 34px;
+  }
+
+  .craftText,
+  .craftImgContainer {
+    width: 100%;
+  }
+
+  .craftImgContainer {
+    justify-content: center;
+  }
+
+  .craftImg {
+    height: 400px;
+  }
+}

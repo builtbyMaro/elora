@@ -9,8 +9,8 @@ const Perfumes = [
       "Aurea embodies golden elegance and timeless luxury. Drawing inspiration from light, warmth, and celebration, this fragrance blends subtle floral and amber notes, offering a scent that feels both radiant and intimate. It is designed for the woman who enjoys understated glamour and refined beauty.",
     images: {
       image1: "aurea.jpg",
-      image2: "",
-      image3: "",
+      image2: "aurea1.jpg",
+      image3: "aurea2.jpg",
     },
     details: {
       size: "100ml",
@@ -28,8 +28,8 @@ const Perfumes = [
       "Obsidian represents strength and sophistication. Inspired by the deep allure of nightfall, each bottle is crafted with precision, blending warm spices and refined woods. It is for the man who moves through the world with quiet authority, leaving an unforgettable impression wherever he goes.",
     images: {
       image1: "obsidian.jpg",
-      image2: "",
-      image3: "",
+      image2: "obsidian1.jpg",
+      image3: "obsidian2.jpg",
     },
     details: {
       size: "100ml",
@@ -48,8 +48,8 @@ const Perfumes = [
       "Liora evokes the intrigue of twilight and the allure of hidden elegance. Crafted with layered notes of exotic woods, soft florals, and gentle spices, it creates a captivating presence. It is the fragrance for the woman who embraces mystery, confidence, and timeless sophistication.",
     images: {
       image1: "liora.jpg",
-      image2: "",
-      image3: "",
+      image2: "liora1.jpg",
+      image3: "liora2.jpg",
     },
     details: {
       size: "100ml",
@@ -62,13 +62,13 @@ const Perfumes = [
     name: "Verdan",
     HomepageDescription: "Fresh and magnetic, for the modern man",
     description:
-      "Fresh, refined, and magnetic. Green top notes evoke nature’s elegance, grounded by subtle woody undertones, leaving a confident, lasting impression.",
+      "Fresh, refined, and magnetic. Top notes evoke natural clarity, grounded by subtle woody undertones that leave an impression.",
     story:
       "Verdan captures the essence of natural sophistication. Every note is carefully chosen to balance vitality and depth, reflecting the quiet confidence of the modern man. It is a fragrance that energizes the senses while maintaining refined elegance.",
     images: {
       image1: "verdan.jpg",
-      image2: "",
-      image3: "",
+      image2: "verdan1.jpg",
+      image3: "verdan2.jpg",
     },
     details: {
       size: "100ml",
@@ -86,8 +86,8 @@ const Perfumes = [
       "Liora evokes the intrigue of twilight and the allure of hidden elegance. Crafted with layered notes of exotic woods, soft florals, and gentle spices, it creates a captivating presence. It is the fragrance for the woman who embraces mystery, confidence, and timeless sophistication.",
     images: {
       image1: "rosee.jpg",
-      image2: "",
-      image3: "",
+      image2: "rosee1.jpg",
+      image3: "rosee2.jpg",
     },
     details: {
       size: "100ml",

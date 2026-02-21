@@ -40,7 +40,7 @@
   display: flex;
   width: 450px;
   height: 400px;
-  background: url("/Images/about-hero.jpg");
+  background: url("/Images/about-home.jpg");
   background-position-y: -180px;
   background-size: cover;
   border-radius: 8px;

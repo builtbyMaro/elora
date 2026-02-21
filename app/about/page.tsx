@@ -1,8 +1,20 @@
+import Hero from "./sections/Hero Section/hero";
+import Introduction from "./sections/introduction section/introduction";
+import Craft from "./sections/craftsmanship section/craft";
+import Ingredients from "./sections/ingredients section/ingredients";
+import Identity from "./sections/identity section/identity";
+import CTA from "../(homepage)/sections/CTA section/cta";
+
 const About = () => {
   return (
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-playfair text-green-700">About Elora</h1>
-    </div>
+    <>
+      <Hero />
+      <Introduction />
+      <Craft />
+      <Ingredients />
+      <Identity />
+      <CTA />
+    </>
   );
 };
 

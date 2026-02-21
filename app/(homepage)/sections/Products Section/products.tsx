@@ -1,7 +1,11 @@
 import styles from "./products.module.css";
 import Product from "./product";
+import Perfumes from "@/utils/perfumes";
+import Link from "next/link";
 
 const Products = () => {
+  const homePerfumes = Perfumes.slice(1, 4);
+
   return (
     <div className={styles.productsContainer}>
       <div className={styles.productCard}>
@@ -17,11 +21,13 @@ const Products = () => {
         </div>
       </div>
       <div className={styles.productList}>
-        <Product />
-        <Product />
-        <Product />
+        {homePerfumes.map((perfume) => (
+          <Product key={perfume.id} perfume={perfume} />
+        ))}
       </div>
-      <button className={styles.seeOther}> See other Scents</button>
+      <Link href="/perfumes">
+        <button className={styles.seeOther}> See other Scents</button>
+      </Link>
     </div>
   );
 };

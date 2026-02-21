@@ -15,7 +15,7 @@ const About = () => {
           crafted to leave a subtle impression, one that lingers long after
           you’ve gone.
         </p>
-        <Link href="/about">Read more</Link>
+        <Link href="/about">see more</Link>
       </div>
       <div className={styles.aboutImgContainer}>
         <div className={styles.aboutImg}></div>

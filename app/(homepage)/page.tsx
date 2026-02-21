@@ -1,7 +1,7 @@
-import HeroSection from "./components/Hero Section/Hero";
-import AboutSection from "./components/About Section/About";
-import Products from "./components/Products Section/products";
-import CTA from "./components/CTA section/cta";
+import HeroSection from "./sections/Hero Section/Hero";
+import AboutSection from "./sections/About Section/About";
+import Products from "./sections/Products Section/products";
+import CTA from "./sections/CTA section/cta";
 
 const Homepage = () => {
   return (

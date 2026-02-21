@@ -1,0 +1,13 @@
+.perfumesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px;
+  background-color: #e0e0e0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .perfumesContainer {
+    padding: 36px 24px;
+  }
+}

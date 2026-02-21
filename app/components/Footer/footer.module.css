@@ -73,17 +73,11 @@
   .serviceLinks,
   .contactLinks {
     flex-direction: row;
-    gap: 34px;
-    text-align: center;
+    gap: 24px;
   }
 
   .serviceLinks h4,
   .contactLinks h4 {
     display: none;
-  }
-
-  .navLinks a,
-  .contactLinks a {
-    text-align: center;
   }
 }

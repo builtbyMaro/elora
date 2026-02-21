@@ -1,0 +1,98 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  padding: 36px;
+  border: 2px solid black;
+  height: 80vh;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: start;
+  width: 50%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 36px;
+  width: 50%;
+}
+
+.image {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  background-image: var(--img-name);
+  background-size: cover;
+  background-position: center;
+}
+
+.perfumeText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 36px;
+}
+
+.perfumeText h3 {
+  font-size: 2em;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.perfumeText p {
+  font-size: 1.2em;
+  font-family: inter, sans-serif;
+  font-weight: 500;
+}
+
+.intensity {
+  font-size: 1em;
+  font-family: inter, sans-serif;
+  color: #666;
+  margin-top: 16px;
+}
+
+.viewBtn {
+  font-family: inter;
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.viewBtn:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .cardContainer {
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .imgContainer,
+  .textContainer {
+    width: 100%;
+  }
+
+  .textContainer {
+    gap: 16px;
+    align-items: end;
+  }
+
+  .perfumeText {
+    gap: 16px;
+  }
+
+  .image {
+    height: 260px;
+  }
+}

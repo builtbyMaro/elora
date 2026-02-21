@@ -1,0 +1,50 @@
+.ingredientsContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 60px;
+}
+
+.ingredientsText {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 60%;
+}
+
+.ingredientsText h3 {
+  font-size: 1.2em;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+.ingredientsImgContainer {
+  display: flex;
+  width: 40%;
+}
+
+.ingredientsImg {
+  width: 400px;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ingredientsContainer {
+    flex-direction: column-reverse;
+    padding: 60px 24px;
+    gap: 34px;
+  }
+
+  .ingredientsImgContainer,
+  .ingredientsText {
+    width: 100%;
+  }
+
+  .ingredientsImgContainer {
+    justify-content: center;
+  }
+
+  .ingredientsImg {
+    width: 90%;
+  }
+}
