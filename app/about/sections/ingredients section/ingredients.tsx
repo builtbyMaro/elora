@@ -11,10 +11,10 @@ const Ingredients = () => {
           worn.
         </h3>
         <h3>
-          This approach ensures that the scent remains consistent from the first
-          spray to hours later. <strong>ELORA</strong> fragrances are designed
-          to evolve smoothly, avoiding sharp edges or sudden breakdowns that
-          interrupt the experience.
+          This approach ensures that the fragrance remains consistent from the
+          first spray to hours later. <strong>ELORA</strong> fragrances are
+          designed to evolve smoothly, avoiding sharp edges or sudden breakdowns
+          that interrupt the experience.
         </h3>
       </div>
       <div className={styles.ingredientsImgContainer}>

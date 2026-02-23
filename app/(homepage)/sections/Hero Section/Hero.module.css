@@ -23,13 +23,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  width: 60%;
+  width: 70%;
   position: relative;
   z-index: 3;
 }
 
 .textContainer h1 {
-  font-size: 6em;
+  font-size: 5em;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   color: #d4a737;

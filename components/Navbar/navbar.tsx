@@ -48,11 +48,11 @@ const Navbar = () => {
             Home <i className="bx bx-chevron-right" />
           </Link>
           <Link
-            href="/perfumes"
+            href="/fragrances"
             className={styles.navLink}
             onClick={() => setShowNav(false)}
           >
-            Perfumes <i className="bx bx-chevron-right" />
+            Fragrances <i className="bx bx-chevron-right" />
           </Link>
           <Link
             href="/about"
@@ -64,18 +64,25 @@ const Navbar = () => {
         </div>
         <div className={styles.navLinks}>
           <Link
-            href=""
+            href="/shipping&returns"
             className={styles.navLink}
             onClick={() => setShowNav(false)}
           >
-            Shipping <i className="bx bx-chevron-right" />
+            Shipping & Returns <i className="bx bx-chevron-right" />
           </Link>
           <Link
-            href=""
+            href="/privacy_policy"
             className={styles.navLink}
             onClick={() => setShowNav(false)}
           >
             Privacy policy <i className="bx bx-chevron-right" />
+          </Link>
+          <Link
+            href="/terms&conditions"
+            className={styles.navLink}
+            onClick={() => setShowNav(false)}
+          >
+            Terms & Conditions <i className="bx bx-chevron-right" />
           </Link>
         </div>
       </div>

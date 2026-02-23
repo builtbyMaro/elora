@@ -7,11 +7,11 @@ const About = () => {
       <div className={styles.aboutText}>
         <p>
           Elora was born from a belief that fragrance should feel personal, not
-          loud, not forced. Each scent is designed to complement presence, not
-          overpower it.
+          loud, not forced. Each fragrance is designed to complement presence,
+          not overpower it.
         </p>
         <p>
-          Inspired by nature, emotion, and modern elegance, Elora perfumes are
+          Inspired by nature, emotion, and modern elegance, Elora fragrances are
           crafted to leave a subtle impression, one that lingers long after
           you’ve gone.
         </p>

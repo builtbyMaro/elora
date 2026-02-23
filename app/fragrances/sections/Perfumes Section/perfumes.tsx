@@ -1,5 +1,5 @@
 import styles from "./perfumes.module.css";
-import DisplayCard from "@/app/components/Perfume Display card/displaycard";
+import DisplayCard from "@/components/Perfume Display card/displaycard";
 import Perfumes from "@/utils/perfumes";
 
 const Perfume = () => {

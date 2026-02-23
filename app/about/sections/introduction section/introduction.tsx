@@ -5,9 +5,9 @@ const Introduction = () => {
     <section className={styles.introductionContainer}>
       <h3 className={styles.introductionText}>
         <strong>ELORA</strong> is a fragrance house built on one simple idea,
-        scent shapes how you are perceived and how you move through the world. A
-        well made perfume doesn’t just smell good, it creates presence, mood,
-        and memory in the people around you.
+        fragrance shapes how you are perceived and how you move through the
+        world. A well made fragrance doesn’t just smell good, it creates
+        presence, mood, and memory in the people around you.
       </h3>
       <h3 className={styles.introductionText}>
         Every <strong>ELORA</strong> fragrance is created with intention.

@@ -13,7 +13,7 @@ const Footer = () => {
       <div className={styles.footerLinks}>
         <div className={styles.navLinks}>
           <Link href="/">Home</Link>
-          <Link href="/perfumes">Perfumes</Link>
+          <Link href="/fragrances">Fragrances</Link>
           <Link href="/about">About Us</Link>
         </div>
         <div className={styles.contactLinks}>
@@ -25,8 +25,9 @@ const Footer = () => {
         <div className={styles.serviceLinks}>
           <h4>Customer Service / Info</h4>
           <Link href="">Contact: info@elora.com</Link>
-          <Link href="">Shipping & Returns</Link>
-          <Link href="">Privacy Policy</Link>
+          <Link href="/shipping&returns">Shipping & Returns</Link>
+          <Link href="/privacy_policy">Privacy Policy</Link>
+          <Link href="/terms&conditions">Terms & Conditions</Link>
         </div>
       </div>
     </footer>

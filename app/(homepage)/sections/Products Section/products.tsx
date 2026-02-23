@@ -11,7 +11,7 @@ const Products = () => {
       <div className={styles.productCard}>
         <div className={styles.productImage}></div>
         <div className={styles.productDetails}>
-          <h3>Latest Scent</h3>
+          <h3>Latest Fragrance</h3>
           <h2>Aurea</h2>
           <p>
             A luminous, luxurious fragrance that radiates warmth and
@@ -25,8 +25,8 @@ const Products = () => {
           <Product key={perfume.id} perfume={perfume} />
         ))}
       </div>
-      <Link href="/perfumes">
-        <button className={styles.seeOther}> See other Scents</button>
+      <Link href="/fragrances">
+        <button className={styles.seeOther}> See other Fragrances</button>
       </Link>
     </div>
   );

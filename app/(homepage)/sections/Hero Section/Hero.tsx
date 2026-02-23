@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className={styles.heroContainer}>
       <div className={styles.darkOverlay}></div>
       <div className={styles.textContainer}>
-        <h1>A single scent can tell a story</h1>
+        <h1>A single fragrance can tell a story</h1>
         <p>
           Discover our premium collection of fragrances, crafted to inspire
           calm, allure, and timeless elegance.

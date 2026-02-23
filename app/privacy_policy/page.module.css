@@ -1,0 +1,33 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 60px;
+  margin-top: 50px;
+}
+
+.pContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sectionContainer h3,
+.sectionContainer h4,
+.sectionContainer p {
+  font-family: inter;
+}
+
+.sectionContainer ul {
+  padding-left: 16px;
+}
+
+.sectionContainer li {
+  font-family: inter;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sectionContainer {
+    padding: 24px;
+  }
+}
