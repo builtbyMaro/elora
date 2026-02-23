@@ -1,12 +1,14 @@
 import styles from "./perfumes.module.css";
 import DisplayCard from "@/components/Perfume Display card/displaycard";
-import Perfumes from "@/utils/perfumes";
+import { getFragrances } from "@/utils/perfumes";
 
 const Perfume = () => {
+  const fragrances = getFragrances();
+
   return (
     <section className={styles.perfumesContainer}>
-      {Perfumes.map((perfume) => (
-        <DisplayCard key={perfume.id} perfume={perfume} />
+      {fragrances.map((fragrance) => (
+        <DisplayCard key={fragrance.id} fragrance={fragrance} />
       ))}
     </section>
   );
