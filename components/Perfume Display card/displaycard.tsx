@@ -1,6 +1,6 @@
 import styles from "./displaycard.module.css";
 import Link from "next/link";
-import { fragrance } from "@/utils/fragrance";
+import { fragrance } from "@/utils/types/fragrance";
 
 type props = {
   fragrance: fragrance;

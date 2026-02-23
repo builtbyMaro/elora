@@ -1,6 +1,6 @@
 import styles from "./products.module.css";
 import Link from "next/link";
-import { fragrance } from "@/utils/fragrance";
+import { fragrance } from "@/utils/types/fragrance";
 
 type props = {
   fragrance: fragrance;
