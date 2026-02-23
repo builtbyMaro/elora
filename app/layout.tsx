@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
+import { CartProvider } from "@/utils/context/cartContext";
 
 export const metadata = {
   title: "Elora",
@@ -27,9 +28,11 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <CartProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

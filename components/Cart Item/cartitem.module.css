@@ -1,0 +1,66 @@
+.itemContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.itemDetails {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.itemText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.itemText p {
+  font-size: 1em;
+  font-family: inter;
+  font-weight: 500;
+  color: black;
+}
+
+.itemActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 50%;
+  justify-content: end;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  overflow: hidden;
+}
+
+.counterBtn {
+  font-family: inter;
+  padding: 3px 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  background: transparent;
+  color: #ccc;
+}
+
+.counterBtn:hover {
+  color: #000;
+}
+
+.count {
+  font-family: inter;
+  padding: 0 3px;
+  min-width: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.removeIcon {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: hsl(0, 0%, 40%);
+}

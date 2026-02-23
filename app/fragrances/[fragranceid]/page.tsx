@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import { notFound } from "next/navigation";
-import { getFragrances, getFraganceId } from "@/utils/perfumes";
+import { getFragrances, getFraganceId } from "@/utils/lib/perfumes";
 import ImageCarousel from "@/components/Carousel Display/carousel";
 import CartAction from "@/components/Cart Action/cartAction";
 import Product from "@/app/(homepage)/sections/Products Section/product";
@@ -58,7 +58,7 @@ const ViewFragrance = async ({ params }: Props) => {
             </div>
             <p className={styles.price}>$ {fragrance.details.price}</p>
             <div className={styles.productActions}>
-              <CartAction initialCount={1} />
+              <CartAction initialCount={1} productId={fragrance.id} />
             </div>
           </div>
         </div>

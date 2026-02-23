@@ -1,14 +1,12 @@
 import styles from "./products.module.css";
 import Product from "./product";
-import { getFragrances } from "@/utils/perfumes";
+import { getFragrances } from "@/utils/lib/perfumes";
 import Link from "next/link";
 
 const Products = () => {
   const fragrances = getFragrances();
   const latestFragrance = fragrances.at(0);
   const homeFragrances = fragrances.slice(1, 4);
-
-  console.log(latestFragrance);
 
   return (
     <div className={styles.productsContainer}>

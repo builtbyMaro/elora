@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 998;
   padding: 10px 34px;
   width: 100%;
   height: 64px;
@@ -37,19 +37,54 @@
   cursor: pointer;
 }
 
-.sideNav {
+.iconWithNumber {
+  position: relative;
+}
+
+.totalItems {
+  font-size: 0.8em;
+  font-family: inter;
+  font-weight: 300;
+  color: white;
+  padding: 2px 6px;
+  background-color: #d4a737;
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  z-index: 999;
+  border-radius: 9999px;
+}
+
+.overlay {
   position: fixed;
   top: 0;
-  left: -100%;
-  height: 100vh;
-  width: 300px;
-  background-color: hsl(0, 0%, 100%);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  z-index: 999;
+  pointer-events: none;
+  transition: background 0.3s ease;
+}
+
+.showOverlay {
+  background: rgba(0, 0, 0, 0.3);
+  pointer-events: auto;
+}
+
+.sideNav {
   display: flex;
   flex-direction: column;
-  padding: 80px 60px;
-  transition: left 0.5s ease-in-out;
-  z-index: 1000;
   justify-content: space-between;
+  padding: 80px 60px;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #e0e0e0;
+  z-index: 1000;
+  transition: left 0.5s ease-in-out;
 }
 
 .showNav {
@@ -75,13 +110,103 @@
   transform: scale(1.05);
 }
 
-.closeIcon {
+.closeNav {
   position: absolute;
   top: 20px;
   right: 16px;
   font-size: 2.5em;
   color: hsl(0, 0%, 0%);
   cursor: pointer;
+}
+
+.cartContainer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  width: 300px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  transition: right 0.5s ease-in-out;
+  z-index: 1000;
+  gap: 24px;
+  padding: 60px 24px;
+}
+
+.showCart {
+  right: 0;
+}
+
+.closeCart {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  font-size: 2.5em;
+  color: hsl(0, 0%, 0%);
+  cursor: pointer;
+}
+
+.cartHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartHeader h2 {
+  font-size: 1.2em;
+  font-family: inter;
+}
+
+.cartHeader button {
+  border: none;
+  background: transparent;
+  font-size: 0.9em;
+  font-family: inter;
+  color: hsl(0, 0%, 40%);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cartHeader button:hover {
+  color: hsl(0, 0%, 0%);
+}
+
+.emptyCart {
+  font-family: inter;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: hsl(0, 0%, 40%);
+  text-align: center;
+}
+
+.checkoutBtn {
+  font-family: inter;
+  padding: 9px 16px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.checkoutBtn:hover {
+  background: white;
+  color: black;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  font-family: inter;
+}
+
+.total h4 {
+  font-weight: 400;
+  color: hsl(0, 0%, 40%);
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

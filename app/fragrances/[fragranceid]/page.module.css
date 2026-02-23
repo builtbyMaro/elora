@@ -108,6 +108,7 @@
 
 .recommended {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -142,5 +143,10 @@
 
   .story {
     font-size: 1.1em;
+  }
+
+  .recommended {
+    flex-direction: column;
+    gap: 24px;
   }
 }

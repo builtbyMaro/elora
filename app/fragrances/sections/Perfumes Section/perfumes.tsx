@@ -1,6 +1,6 @@
 import styles from "./perfumes.module.css";
 import DisplayCard from "@/components/Perfume Display card/displaycard";
-import { getFragrances } from "@/utils/perfumes";
+import { getFragrances } from "@/utils/lib/perfumes";
 
 const Perfume = () => {
   const fragrances = getFragrances();
