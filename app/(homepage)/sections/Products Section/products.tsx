@@ -15,7 +15,7 @@ const Products = () => {
           className={styles.productImage}
           style={
             {
-              "--img-name": `url(/perfumes/${latestFragrance?.images.image4})`,
+              "--img-name": `url(/Perfumes/${latestFragrance?.images.image4})`,
             } as React.CSSProperties
           }
         ></div>

@@ -13,7 +13,7 @@ const Product = ({ fragrance }: props) => {
         className={styles.image}
         style={
           {
-            "--img-name": `url(/perfumes/${fragrance.images.image1})`,
+            "--img-name": `url(/Perfumes/${fragrance.images.image1})`,
           } as React.CSSProperties
         }
       ></div>

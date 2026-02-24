@@ -41,8 +41,8 @@ const ViewFragrance = async ({ params }: Props) => {
           <div className={styles.productCarousel}>
             <ImageCarousel
               images={[
-                `/perfumes/${fragrance.images.image1}`,
-                `/perfumes/${fragrance.images.image2}`,
+                `/Perfumes/${fragrance.images.image1}`,
+                `/Perfumes/${fragrance.images.image2}`,
               ]}
             />
           </div>
@@ -71,7 +71,7 @@ const ViewFragrance = async ({ params }: Props) => {
           </div>
           <div className={styles.storyImage}>
             <img
-              src={`/perfumes/${fragrance.images.image3}`}
+              src={`/Perfumes/${fragrance.images.image3}`}
               alt={`An image of ${fragrance.name}`}
               className={styles.image}
             />
