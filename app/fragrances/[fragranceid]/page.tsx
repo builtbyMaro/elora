@@ -26,9 +26,7 @@ const ViewFragrance = async ({ params }: Props) => {
   const id = Number(fragranceid);
 
   const fragrance = getFraganceId(id);
-  const recommended = fragrances
-    .filter((f) => f.id !== Number(fragranceid))
-    .slice(1, 4);
+  const recommended = fragrances.filter((f) => f.id !== id).slice(1, 4);
 
   if (!fragrance) {
     return notFound();

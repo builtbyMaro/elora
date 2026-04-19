@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Elora – Perfume Brand E-Commerce UI
 
-## Getting Started
+Elora is a premium perfume brand concept website designed to showcase high-end fragrance products through a clean, elegant, and visually refined interface.
 
-First, run the development server:
+The focus of this project was UI design quality, smooth user experience, and brand presentation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Elegant product showcase layout
+- Multi-page e-commerce structure
+- Responsive design across devices
+- Clean product categorization
+- Smooth and modern UI aesthetics
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Purpose of the Project
 
-To learn more about Next.js, take a look at the following resources:
+Elora was built to practice:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- High-quality UI design implementation
+- Branding-focused frontend development
+- Layout composition for luxury products
+- Responsive e-commerce page structuring
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js
+- TypeScript
+- CSS Modules
+- React
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧩 Pages Included
+
+- Home
+- Product Listings
+- Product Details
+- Brand/About Page
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** [https://elora-sigma.vercel.app/]
+
+---
+
+## 📌 What I Learned
+
+- Building visually polished UI systems
+- Structuring e-commerce layouts
+- Improving design consistency across pages
+- Balancing aesthetics with usability
